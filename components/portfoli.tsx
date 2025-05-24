@@ -458,7 +458,7 @@ export default function PortfolioV2() {
 
             <div className="max-w-5xl mx-auto">
               <Card className="bg-white dark:bg-gray-800 border-gray-200 dark:border-gray-700 overflow-hidden">
-                <div className="grid md:grid-cols-5">
+                <div className="grid md:grid-cols-2">
                   <div className="md:col-span-2 bg-gradient-to-br from-teal-500 to-indigo-500 p-8 text-white">
                     <h3 className="text-2xl font-semibold mb-6">Contact Information</h3>
                     <p className="mb-8 opacity-90">Fill out the form and I'll get back to you as soon as possible.</p>
@@ -490,72 +490,9 @@ export default function PortfolioV2() {
                       </div>
                     </div>
 
-                    <div className="absolute bottom-8 left-8 right-8 opacity-10">
-                      <Code size={180} />
-                    </div>
+    
                   </div>
-
-                  <div className="md:col-span-3 p-8">
-                    <form className="space-y-6">
-                      <div className="grid grid-cols-2 gap-6">
-                        <div>
-                          <label
-                            htmlFor="name"
-                            className="block text-sm font-medium mb-2 text-gray-700 dark:text-gray-300"
-                          >
-                            Name
-                          </label>
-                          <input
-                            type="text"
-                            id="name"
-                            className="w-full px-4 py-2 rounded-md border border-gray-300 dark:border-gray-600 bg-white dark:bg-gray-700 text-gray-900 dark:text-gray-100 focus:outline-none focus:ring-2 focus:ring-teal-500 dark:focus:ring-teal-400"
-                          />
-                        </div>
-                        <div>
-                          <label
-                            htmlFor="email"
-                            className="block text-sm font-medium mb-2 text-gray-700 dark:text-gray-300"
-                          >
-                            Email
-                          </label>
-                          <input
-                            type="email"
-                            id="email"
-                            className="w-full px-4 py-2 rounded-md border border-gray-300 dark:border-gray-600 bg-white dark:bg-gray-700 text-gray-900 dark:text-gray-100 focus:outline-none focus:ring-2 focus:ring-teal-500 dark:focus:ring-teal-400"
-                          />
-                        </div>
-                      </div>
-                      <div>
-                        <label
-                          htmlFor="subject"
-                          className="block text-sm font-medium mb-2 text-gray-700 dark:text-gray-300"
-                        >
-                          Subject
-                        </label>
-                        <input
-                          type="text"
-                          id="subject"
-                          className="w-full px-4 py-2 rounded-md border border-gray-300 dark:border-gray-600 bg-white dark:bg-gray-700 text-gray-900 dark:text-gray-100 focus:outline-none focus:ring-2 focus:ring-teal-500 dark:focus:ring-teal-400"
-                        />
-                      </div>
-                      <div>
-                        <label
-                          htmlFor="message"
-                          className="block text-sm font-medium mb-2 text-gray-700 dark:text-gray-300"
-                        >
-                          Message
-                        </label>
-                        <textarea
-                          id="message"
-                          rows={5}
-                          className="w-full px-4 py-2 rounded-md border border-gray-300 dark:border-gray-600 bg-white dark:bg-gray-700 text-gray-900 dark:text-gray-100 focus:outline-none focus:ring-2 focus:ring-teal-500 dark:focus:ring-teal-400"
-                        />
-                      </div>
-                      <Button className="w-full bg-gradient-to-r from-teal-500 to-indigo-500 hover:from-teal-600 hover:to-indigo-600 text-white border-0">
-                        Send Message
-                      </Button>
-                    </form>
-                  </div>
+ 
                 </div>
               </Card>
             </div>
